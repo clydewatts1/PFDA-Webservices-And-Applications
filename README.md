@@ -1,51 +1,123 @@
-# PFDA Webservices And Applications ✅
+# PFDA Webservices And Applications
 
-**Short description**
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Course](https://img.shields.io/badge/Type-Course%20Repository-blue)
 
-A small repository containing lab materials for web services and applications. This repo currently includes a tiny demo HTML file and a PDF with environment setup instructions.
+**A comprehensive repository for Professional Foundations in Data Analytics: Web Services and Applications coursework.**
 
----
-
-## Contents 🔧
-
-- `labs/hello.html` — simple HTML page that prints "hello" to the page and logs `Hello World!!` to the browser console.
-- `Lab01 set up environment.pdf` — environment setup instructions for Lab 01 (open to view details).
+This repository contains lab materials, assignments, and projects for learning web services, API integration, and data analysis applications.
 
 ---
 
-## Quick start 🚀
+## 📁 Directory Structure
 
-1. Open `labs/hello.html` in any modern web browser (double-click the file or drag it into the browser window).
-2. The page displays **hello** in the page body.
-3. Open the browser console (DevTools → Console) to see the message: `Hello World!!`.
+```
+PFDA-Webservices-And-Applications/
+├── labs/                          # Lab exercises and tutorials
+│   ├── labs1/
+│   │   └── hello.html            # HTML basics demo
+│   └── labs2/
+│       ├── trains.ipynb          # Data analysis with Jupyter
+│       ├── trains.csv            # Sample dataset
+│       └── trainsxml.xml         # XML data format
+├── assignments/                   # Course assignments
+│   └── assignment1/
+│       └── assignment2-carddraw.ipynb    # Card hand evaluation project
+├── project/                       # Capstone/term projects
+├── hello_HTML.ipynb              # HTML demo notebook
+├── Lab01 set up environment.pdf  # Environment setup guide
+└── README.md                      # This file
+```
+
+---
+
+## 🧪 Labs
+
+Lab exercises designed to build foundational skills in web services and applications.
+
+| Lab | Topic | Files | Status |
+|-----|-------|-------|--------|
+| Lab 1 | HTML Basics & JavaScript | `labs/labs1/hello.html` | ✅ Complete |
+| Lab 2 | Data Analysis with Python | `labs/labs2/trains.ipynb` | ✅ Complete |
+
+**Quick Start:**
+- Open `labs/labs1/hello.html` in any web browser
+- Run `labs/labs2/trains.ipynb` in Jupyter Notebook to analyze train data
+
+---
+
+## 📚 Assignments
+
+Practical assignments applying course concepts to real-world problems.
+
+| Assignment | Topic | Description | Status |
+|------------|-------|-------------|--------|
+| Assignment 1 | Poker Hand Evaluation | Card drawing and poker hand evaluation using APIs | ✅ Complete |
+
+See [assignments/README.md](assignments/README.md) for detailed assignment descriptions, objectives, and requirements.
+
+---
+
+## 🎯 Projects
+
+Capstone and term projects for demonstrating integrated knowledge.
+
+See [project/README.md](project/README.md) for project guidelines and specifications.
 
 ---
 
 ## Prerequisites ✅
 
-- A modern web browser (Chrome, Edge, Firefox, etc.)
+- Python 3.8+ (for Jupyter notebooks)
+- A modern web browser (Chrome, Edge, Firefox, Safari)
+- Jupyter Notebook or JupyterLab
+- Libraries: `pandas`, `requests`, `matplotlib` (see individual project requirements)
 
 ---
 
-## Tutorials & Exercises 🔍
+## Quick Start 🚀
 
-- HTML Tutorial: https://www.w3schools.com/html/default.asp (see the "Try It Yourself" examples)
-- JavaScript Tutorial: https://www.w3schools.com/js/DEFAULT.asp (see the "Try It Yourself" examples)
+### For Labs:
+1. **Lab 1 (HTML):** Open `labs/labs1/hello.html` in your browser. Open DevTools → Console to see output.
+2. **Lab 2 (Data Analysis):** 
+   ```bash
+   jupyter notebook labs/labs2/trains.ipynb
+   ```
 
-Try these steps locally:
-1. Follow the W3Schools HTML and JavaScript tutorials and open the "Try It Yourself" examples.
-2. Edit `labs/hello.html` to add JavaScript inside `<script></script>` tags.
-3. Open `labs/hello.html` directly in your web browser.
-4. Open Developer Tools → Console to see the output (e.g., `hello World`).
+### For Assignments:
+```bash
+jupyter notebook assignments/assignment1/assignment2-carddraw.ipynb
+```
 
-> Note: We are opening the files directly from the filesystem (not from a web server). The browser will still run HTML and JavaScript, but some features (e.g., fetch, modules) may require a server.
+### For Projects:
+See [project/README.md](project/README.md) for setup instructions.
 
 ---
 
-## Notes & Next steps 💡
+## 📖 Learning Resources
 
-- Add more labs or expand the existing examples to cover common webservice tasks (API calls, JSON handling, etc.).
-- Consider adding a project license and contribution guidelines if this will be a collaborative repo.
+- **HTML Tutorial:** https://www.w3schools.com/html/
+- **JavaScript Tutorial:** https://www.w3schools.com/js/
+- **Python Data Analysis:** https://pandas.pydata.org/docs/
+- **REST APIs:** https://www.postman.com/api-documentation/
+- **Jupyter Notebooks:** https://jupyter.org/
+
+---
+
+## 📝 Notes
+
+- Environment setup instructions are in `Lab01 set up environment.pdf`
+- All notebooks run independently; refer to individual README files for dependencies
+- Some labs may require internet access for API calls
+
+---
+
+## 📧 Contact & Support
+
+For questions or issues, please refer to course materials or contact your instructor.
+
+---
+
+**Last Updated:** January 2026
 
 ---
 
